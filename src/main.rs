@@ -4,6 +4,7 @@
 mod vec;
 mod string;
 mod hashmap;
+mod traits;
 
 fn main() {
     string::string();

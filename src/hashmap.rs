@@ -18,6 +18,8 @@ pub fn hashmap() {
     }
 
     let times = count_word_times("hello world wonderful world");
+
+    // let map = create_from_tuple();
     println!("{:?}", times);
 }
 
