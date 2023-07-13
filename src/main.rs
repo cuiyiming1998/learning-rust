@@ -5,10 +5,12 @@ mod vec;
 mod string;
 mod hashmap;
 mod traits;
+mod lifetime;
 
 fn main() {
     string::string();
     hashmap::hashmap();
+    lifetime::get_longest();
 
     // vec::vec();
 

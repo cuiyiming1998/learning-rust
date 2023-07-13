@@ -23,8 +23,8 @@ pub fn hashmap() {
     println!("{:?}", times);
 }
 
-// fn create_from_tuple() {
-//     let teams = vec![String::from("value"), String::from("v")];
+// fn create_from_tuple() -> HashMap<&&str, &i32> {
+//     let teams = vec!["value", "v"];
 //     let initial_scores = vec![10, 50];
 
 //     let scores: HashMap<_, _> = teams.iter().zip(initial_scores.iter()).collect();

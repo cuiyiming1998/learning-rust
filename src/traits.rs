@@ -35,7 +35,7 @@ fn largest<T: PartialOrd + Clone>(list: &[T]) -> &T {
 
     for item in list.iter() {
         if item > &largest {
-          largest = item;
+            largest = item;
         }
     }
 
