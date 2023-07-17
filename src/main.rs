@@ -6,11 +6,14 @@ mod string;
 mod hashmap;
 mod traits;
 mod lifetime;
+mod iterator;
 
 fn main() {
     string::string();
     hashmap::hashmap();
     lifetime::get_longest();
+
+    iterator::iterator_sum();
 
     // vec::vec();
 
